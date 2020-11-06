@@ -4,6 +4,8 @@ module.exports = {
         date
       ).getFullYear()}`;
     },
+
+    // Will probably have to update this to change to posts
     format_url: url => {
         return url
             .replace('http://', '')
