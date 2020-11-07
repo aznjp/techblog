@@ -3,8 +3,10 @@
       <a href="/post/{{id}}" class="edit-link"><h3>{{title}}</h3></a>
       <span class = "post-info">Created by <strong>{{user.username}} </strong> on <strong>{{format_date created_at}}</strong></span>   
   </div>
+
+  <span class ="post-body mt-2 mb-2"><strong>{{post_blog}}</strong></span>
+
   <div class="post-comments">
-    <span class ="post-body"><strong>{{post_blog}}</strong></span>
     <a href="/post/{{id}}">{{comments.length}} {{format_plural "comment" comments.length}}</a>
   </div>
 </article>

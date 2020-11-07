@@ -56,8 +56,9 @@ li {
     color: var(--button-color-1-hover);
 }
 
-.nav-bg {
-    background-color: var(--navbar-color);
+nav a,
+nav button {
+    margin-right: 10px;
 }
 
 
@@ -66,6 +67,7 @@ li {
 .post {
     margin-bottom: 2%;
     line-height: 100%;
+    border-style: solid;
 }
 
 .post-list {
