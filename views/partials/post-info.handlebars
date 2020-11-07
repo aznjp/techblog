@@ -4,7 +4,7 @@
       <span class = "post-info">Created by <strong>{{user.username}} </strong> on <strong>{{format_date created_at}}</strong></span>   
   </div>
   <div class="post-comments">
-    <span class ="post-body">{{post_blog}}</span>
+    <span class ="post-body"><strong>{{post_blog}}</strong></span>
     <a href="/post/{{id}}">{{comments.length}} {{format_plural "comment" comments.length}}</a>
   </div>
 </article>
