@@ -1,18 +1,22 @@
-{{> post-info post}}
+<div class="single-post">
+  {{> post-info post}}
+<a href="/dashboard/edit/{{post.id}}" class="edit-link">Edit post</a>
+</div>
+
 
 {{#if loggedIn}}
 <form class="comment-form">
   <div>
-    <textarea name="comment-body"></textarea>
+    <textarea name="comment-body" cols="40"></textarea>
   </div>
 
   <div>
-    <button type="submit">add comment</button>
+    <button type="submit" class ="btn btn-primary">Add Comment</button>
   </div>
 </form>
-{{/if}}
 
 {{> comments post.comments}}
+{{/if}}
 
 {{#if loggedIn}}
 <script src="/javascript/comment.js"></script>

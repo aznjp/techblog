@@ -1,8 +1,11 @@
 <div class="comments">
+  <div>
+    <h2>Comment Section</h2>
+  </div>
   {{#each this}}
   <section class="comment">
     <div class="meta">
-      {{user.username}} on {{format_date created_at}}
+      <strong>{{user.username}}</strong> on <strong>{{format_date created_at}}</strong>
     </div>
     <div class="text">
       {{comment_text}}

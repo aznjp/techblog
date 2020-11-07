@@ -5,32 +5,34 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>The Tech Blogs</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
   <link rel="stylesheet" href="/stylesheets/style.css">
 </head>
 
 <body>
-  <div class="wrapper">
-    <header>
+  <div class="container">
+    <header class="navbar navbar-dark pt-3 border bg-success">
       <h1>
         <a href="/"> The Tech Blogs</a>
       </h1>
       <nav>
-        {{#if loggedIn}}
+        <a href="/">Homepage</a>
         <a href="/dashboard">Dashboard</a>
-        <button id="logout" class="btn-no-style">logout</button>
+        {{#if loggedIn}}
+        <button id="logout" class="btn-no-style">Logout</button>
         {{else}}
-        <a href="/login">login</a>
+        <a href="/login">Login</a>
         {{/if}}
       </nav>
     </header>
-    <main>
+    <main class="p-3 border bg-success">
       {{{ body }}}
     </main>
     <footer>
       
     </footer>
   </div>
-  
+    
   {{#if loggedIn}}
   <script src="/javascript/logout.js"></script>
   {{/if}}
