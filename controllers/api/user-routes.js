@@ -50,7 +50,7 @@ router.get('/:id', (req, res) => {
         });
 });
 
-router.post('/', (req, res) => {
+router.post('/signin', (req, res) => {
     User.create({
             username: req.body.username,
             email: req.body.email,
@@ -98,6 +98,7 @@ router.post('/login', (req, res) => {
         });
     });
 });
+
 
 router.post('/logout', (req, res) => {
     if (req.session.loggedIn) {
