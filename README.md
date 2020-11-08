@@ -32,6 +32,8 @@ When you click on any of the other posts (whether they be your own or someone el
 
 ![Tech Blog](./public/assets/images/screenshot5.PNG)
 
+You can access the application <a href = "https://blog-tech-123.herokuapp.com/">here</a>
+
 ## License
 MIT  
 
