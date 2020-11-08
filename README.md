@@ -25,12 +25,12 @@ When you click on any of the nav links the application will lead you to the logi
 
 Once you enter you can now enter the dashboard as shown below you can now edit and delete your posts and create an entirely new posts as shown below.
 
-![Tech Blog](./public/assets/images/screenshot3.PNG)
-![Tech Blog](./public/assets/images/screenshot4.PNG)
+![Tech Blog](./public/assets/images/screenshot3.png)
+![Tech Blog](./public/assets/images/screenshot4.png)
 
 When you click on any of the other posts (whether they be your own or someone else's) the application will allow you to add in a new comment into the post thereafter.
 
-![Tech Blog](./public/assets/images/screenshot5.PNG)
+![Tech Blog](./public/assets/images/screenshot5.png)
 
 You can access the application <a href = "https://blog-tech-123.herokuapp.com/">here</a>
 
