@@ -22,15 +22,19 @@ The application will begin with a homepage interface that shows all posts that h
 When you click on any of the nav links the application will lead you to the login page which will allow you to either sign up or login to your account. 
 
 ![Tech Blog](./public/assets/images/screenshot2.PNG)
-
-Once you enter you can now enter the dashboard as shown below you can now edit and delete your posts and create an entirely new posts as shown below.
-
 ![Tech Blog](./public/assets/images/screenshot3.png)
+
+Once you enter you can now enter the dashboard as shown below you are given the option to add a completely new post or edit ones you have previously made.
+
+
 ![Tech Blog](./public/assets/images/screenshot4.png)
+![Tech Blog](./public/assets/images/screenshot5.png)
 
 When you click on any of the other posts (whether they be your own or someone else's) the application will allow you to add in a new comment into the post thereafter.
 
-![Tech Blog](./public/assets/images/screenshot5.png)
+![Tech Blog](./public/assets/images/screenshot6.png)
+![Tech Blog](./public/assets/images/screenshot7.png)
+
 
 You can access the application <a href = "https://blog-tech-123.herokuapp.com/">here</a>
 
